@@ -1,0 +1,487 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stylizz - Minimal E-commerce Html Template</title>
+    <link rel=icon href="assets/img/favicon.png" sizes="20x20" type="image/png">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/vendor.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+
+    <!-- preloader area start -->
+    <div class="preloader" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+    <!-- search popup start-->
+    <div class="td-search-popup" id="td-search-popup">
+        <form action="home.html" class="search-form">
+            <div class="form-group">
+                <input type="text" class="form-control" placeholder="Search.....">
+            </div>
+            <button type="submit" class="submit-btn"><i class="fa fa-search"></i></button>
+        </form>
+    </div>
+    <!-- search popup end-->
+    <div class="body-overlay" id="body-overlay"></div>
+
+    <!-- navbar start -->
+    <div class="navbar-area">
+        <nav class="navbar navbar-area-2 navbar-area navbar-expand-lg">
+            <div class="container-fluid nav-container">
+                <div class="responsive-mobile-menu">
+                    <button class="menu toggle-btn d-block d-lg-none" data-target="#st_main_menu" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-left"></span>
+                        <span class="icon-right"></span>
+                    </button>
+                </div>
+                <div class="logo">
+                    <a href="home.html"><img src="assets/img/logo.png" alt="img"></a>
+                </div>
+                <div class="nav-right-part nav-right-part-mobile">
+                    <a class="search-bar-btn" href="#"><i class="lnr lnr-magnifier"></i></a>
+                    <a class="user-btn" href="wishlist.html"><i class="lnr lnr-user"></i></a>
+                    <a class="cart-btn" href="cart.html"><span class="cart-count">2</span><i class="lnr lnr-cart"></i></a>
+                </div>
+                <div class="collapse navbar-collapse" id="st_main_menu">
+                    <ul class="navbar-nav menu-open">
+                        <li class="menu-item-has-children current-item-has-children">
+                            <a href="#">Home</a>
+                            <ul class="sub-menu">
+                                <li><a href="home.html">Home 01</a></li>
+                                <li><a href="index-2.html">Home 02</a></li>
+                                <li><a href="index-3.html">Home 03</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">New Arrivals</a>
+                            <ul class="sub-menu">
+                                <li><a href="shop.html">Shop Page</a></li>
+                                <li><a href="shop-details.html">Shop Details</a></li>
+                                <li><a href="cart.html">Cart Page</a></li>
+                                <li><a href="checkout.html">Checkout</a></li>
+                                <li><a href="wishlist.html">Wishlist</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Pages</a>
+                            <ul class="sub-menu">
+                                <li><a href="about.html">About Us</a></li>
+                                <li><a href="blog.html">Blog Page</a></li>
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                                <li><a href="shop.html">Product Page</a></li>
+                                <li><a href="shop-details.html">Product Details</a></li>
+                                <li><a href="contact.html">Contact Us</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-item-has-children">
+                            <a href="#">Blog</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html">Blog</a></li>
+                                
+                                <li><a href="blog-details.html">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="nav-right-part nav-right-part-desktop">
+                    <a class="search-bar-btn" href="#"><i class="lnr lnr-magnifier"></i></a>
+                    <a class="user-btn" href="wishlist.html"><i class="lnr lnr-user"></i></a>
+                    <a class="cart-btn" href="cart.html"><span class="cart-count">2</span><i class="lnr lnr-cart"></i></a>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- navbar end -->
+
+    <!-- breadcrumb Area Start-->
+    <div class="breadcrumb-area" style="background-image:url('assets/img/banner/1.png')">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="breadcrumb-inner">
+                        <div class="section-title text-center mb-0">
+                            <h1 class="page-title">Blog Details</h1>
+                            <ul class="page-list">
+                                <li><a href="home.html">HOME</a></li>
+                                <li><a href="blog.html">BLOG</a></li>
+                                <li>BLOG DETAILS</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- breadcrumb Area End -->
+
+     <!-- blog area start -->
+     <div class="blog-area pd-top-120">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="blog-details-page-content me-xl-5">
+                        <div class="single-blog-inner">
+                            <div class="thumb">
+                                <img src="assets/img/blog/1.png" alt="img">
+                            </div>
+                            <div class="details">
+                                <ul class="blog-meta">
+                                    <li><i class="fa fa-calendar-o"></i> 01 October 2023</li>
+                                    <li><i class="fa fa-user-o"></i> By Sophia</li>
+                                    <li><i class="fa fa-bookmark-o"></i> Fashion</li>
+                                    <li><i class="fa fa-comment-o"></i> Comment</li>
+                                </ul>
+                                <h3 class="title">Fashion Kindness And Motivation Tips Challenge Us To Make A Difference Between Other People & Children In Bangladesh</h3>
+                                <p>Lorem ipsum dolor sit amet, elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et</p>
+                                <blockquote>
+                                    <img src="assets/img/icon/9.png" alt="img">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+                                    
+                                </blockquote>
+                                <p>labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam</p>
+                                <div class="mt-4 mb-4">
+                                    <div class="row">
+                                        <div class="col-lg-6">
+                                            <div class="thumb">
+                                                <img src="assets/img/blog/2.png" alt="img">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <div class="thumb">
+                                                <img src="assets/img/blog/3.png" alt="img">
+                                            </div>
+                                        </div>
+                                    </div>                                    
+                                </div>
+                                <h5>
+                                    Creation Timelines For The Standard Lorem Ipsum Passage.</h5>
+                                <p>labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam</p>
+                                <p class="mt-4">Sed diam voluptua labore et dolore magna aliquyam erat. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam</p>
+                                <div class="tag-and-share">
+                                    <div class="row">
+                                        <div class="col-sm-7">
+                                            <strong>Tags : </strong>
+                                            <div class="tags">
+                                                <a href="#">Fashion</a>
+                                                <a href="#">Beauty</a>
+                                                <a href="#">Style</a>
+                                            </div>
+                                        </div>
+                                        <div class="col-sm-5 text-sm-end">
+                                            <div class="blog-share">
+                                                <strong>Share :</strong>
+                                                <ul>
+                                                    <li><a href="#"><i class="fa fa-facebook-f" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+                                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                                </ul>
+                                            </div>
+                                        </div>  
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="blog-comment">
+                            <div class="section-title style-small">
+                                <h3>Comments</h3>
+                            </div>
+                            <div class="media">
+                                <a href="#">
+                                    <img src="assets/img/team/1.png" alt="comment">
+                                </a>
+                                <div class="media-body">
+                                    <h5>Alisa Reyna</h5>
+                                    <span class="date">25 July 2020</span>
+                                    <p>Reyna ac quam et lectus blandit. Nunc maximus nibh at placerat. Nam sem lacus, ornare non ante sed, ultricies Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus officia voluptates placeat mollitia soluta id? Quasi, dignissimos eligendi eius reprehenderit ea facilis! Consequatur, placeat laudantium eligendi mollitia autem quod at?</p>
+                                    <a class="btn btn-base" href="#"><i class="fa fa-share"></i> Reply</a>
+                                </div>
+                            </div>
+                            <div class="media">
+                                <a href="#">
+                                    <img src="assets/img/team/2.png" alt="comment">
+                                </a>
+                                <div class="media-body">
+                                    <h5>John Doe</h5>
+                                    <span class="date">25 July 2020</span>
+                                    <p>John Doe quam et lectus vestibulum blandit. Nunc maximus nibh at placerat tincidunt. Nam sem Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt ad sapiente totam architecto sint labore? Aperiam eum adipisci deserunt dolorem, modi exercitationem quo hic dolores dolorum qui. Placeat, totam aliquam.</p>
+                                    <a class="btn btn-base" href="#"><i class="fa fa-share"></i> Reply</a>
+                                </div>
+                            </div>
+                            <div class="media border-0">
+                                <a href="#">
+                                    <img src="assets/img/team/3.png" alt="comment">
+                                </a>
+                                <div class="media-body">
+                                    <h5>Holmes Nunc</h5>
+                                    <span class="date">25 July 2020</span>
+                                    <p>Holmes Nunc et lectus vestibulum blandit. Nunc maximus nibh at placerat. Nam sem lacus, ornare non ante sed, ultricies Lorem, ipsum dolor sit amet consectetur adipisicing elit. Provident sequi sunt eius. Et corporis quos tempore accusamus rerum placeat maiores incidunt impedit labore ipsa, molestiae quidem repudiandae a, eos provident?</p>
+                                    <a class="btn btn-base" href="#"> <i class="fa fa-share"></i> Reply</a>
+                                </div>
+                            </div>
+                        </div> 
+                        <form class="blog-comment-form">
+                            <div class="mb-3">
+                                <h3>Leave a Reply</h3>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="single-input-inner style-bg">
+                                        <input type="text" placeholder="Name">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="single-input-inner style-bg">
+                                        <input type="text" placeholder="Email">
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="single-input-inner style-bg">
+                                        <textarea placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-base">Post Comment</button>
+                                </div>
+                            </div>
+                        </form> 
+                    </div>
+                </div>
+                <div class="col-lg-3 col-12">
+                    <div class="td-sidebar">
+                        <div class="widget widget_search">  
+                            <h4 class="widget-title">Search</h4>                                
+                            <form class="search-form">
+                                <div class="form-group">
+                                    <input type="text" placeholder="Search">
+                                </div>
+                                <button class="submit-btn" type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div> 
+                        <div class="widget widget_catagory">
+                            <h4 class="widget-title">Categories</h4>                                 
+                            <ul class="catagory-items">
+                                <li><a href="blog.html"><i class="fa fa-long-arrow-right"></i>   Technology <span>(10)</span></a> </li>
+                                <li><a href="blog.html"><i class="fa fa-long-arrow-right"></i>  Fashion <span>(25)</span></a></li>
+                                <li><a href="blog.html"><i class="fa fa-long-arrow-right"></i>  Winter Style <span>(18)</span></a></li>
+                                <li><a href="blog.html"><i class="fa fa-long-arrow-right"></i> Adult Fashion <span>(45)</span></a></li>
+                                <li><a href="blog.html"><i class="fa fa-long-arrow-right"></i> Minimal Business <span>(26)</span></a></li>
+                                <li><a href="blog.html"><i class="fa fa-long-arrow-right"></i> E-commerce <span>(50)</span></a></li>
+                            </ul>
+                        </div>                  
+                        <div class="widget widget-recent-post">                            
+                            <h4 class="widget-title">Recent News</h4>
+                            <ul>
+                                <li>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="assets/img/widget/1.png" alt="blog">
+                                        </div>
+                                        <div class="media-body align-self-center">
+                                            <h6 class="title"><a href="blog-details.html">Below Are The Original Latin Passages From Which voluptas</a></h6>
+                                            <div class="post-info"><i class="fa fa-calendar-check-o"></i><span>15 October</span></div>                             
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="assets/img/widget/2.png" alt="blog">
+                                        </div>
+                                        <div class="media-body align-self-center">
+                                            <h6 class="title"><a href="blog-details.html">Provident aperiam dicta temporibus deserunt culpa commodi</a></h6>
+                                            <div class="post-info"><i class="fa fa-calendar-check-o"></i><span>15 October</span></div>                             
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="media">
+                                        <div class="media-left">
+                                            <img src="assets/img/widget/3.png" alt="blog">
+                                        </div>
+                                        <div class="media-body align-self-center">
+                                            <h6 class="title"><a href="blog-details.html">Condtum Integer urna at Lorem ipsum dolor sit amet consect elit.</a></h6>
+                                            <div class="post-info"><i class="fa fa-calendar-check-o"></i><span>15 October</span></div>                            
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="widget widget_tags">
+                            <h4 class="widget-title">Tags</h4>
+                            <div class="tagcloud">
+                                <a href="#">Driving</a>
+                                <a href="#">Learn</a>
+                                <a href="#">Drive</a>
+                                <a href="#">Portfolio</a>
+                                <a href="#">Project</a>
+                                <a href="#">Art</a>
+                                <a href="#">Personal</a>
+                                <a href="#">Landing</a>
+                            </div>
+                        </div>
+                        <div class="widget widget_add mb-0 p-0">
+                            <a href="#"><img src="assets/img/blog/blog-add.png" alt="img"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Instagram Starts -->
+    <section class="instagram-area pd-top-120">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section-title text-center">
+                        <h2 class="title">Follow Our Instagram</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 px-0">
+                    <div class="instagram-slider owl-carousel">
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/img/instagram/instagram-1.png" alt="img">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/img/instagram/instagram-2.png" alt="img">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/img/instagram/instagram-3.png" alt="img">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/img/instagram/instagram-4.png" alt="img">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/img/instagram/instagram-5.png" alt="img">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                        <div class="item">
+                            <a href="#">
+                                <img src="assets/img/instagram/instagram-6.png" alt="img">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Instagram End -->
+
+    <!-- Footer Starts -->
+    <footer class="footer-area">
+        <div class="footer-widget">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h5 class="widget-title">help & information</h5>
+                            <ul>
+                                <li><a href="#">help</a></li>
+                                <li><a href="#">track order</a></li>
+                                <li><a href="#">delivery & returns</a></li>
+                                <li><a href="#">10% student discount</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h5 class="widget-title">about us</h5>
+                            <ul>
+                                <li><a href="#">about us</a></li>
+                                <li><a href="#">career at theshop</a></li>
+                                <li><a href="#">investors site</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget widget widget_nav_menu">
+                            <h5 class="widget-title">Customer Care</h5>
+                            <ul>
+                                <li><a href="#">gift card</a></li>
+                                <li><a href="#">size guide</a></li>
+                                <li><a href="#">terms & condition</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="footer-widget widget widget-newsletter">
+                            <h5 class="widget-title">newsletter</h5>
+                            <p>Sign up to Theshop newlettter for 10% <br>Discount code.</p>
+                            <form action="#" class="mt-4">
+                                <input type="email" class="" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address'" required>
+                                <button type="submit"> <span>&rharu;</span></button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12 d-lg-flex justify-content-between">
+                        <div class="copyright-logo align-self-center">
+                            <a href="index.html"><img src="assets/img/logo.png" alt="img"></a>
+                        </div>
+                        <div class="copyright-content align-self-center text-center">
+                            &copy; Copyright Stylizz 2023 - Design by Stylizz
+                        </div>
+                        <div class="copyright-link align-self-center">
+                            <ul>
+                                <li><a href="#">Instagram</a></li>
+                                <li><a href="#">Facebook</a></li>
+                                <li><a href="#">Twitter</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- back to top area start -->
+    <div class="back-to-top">
+        <span class="back-top"><i class="fa fa-angle-up"></i></span>
+    </div>
+    <!-- back to top area end -->
+
+
+    <!-- all plugins here -->
+    <script src="assets/js/vendor.js"></script>
+    <!-- main js  -->
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

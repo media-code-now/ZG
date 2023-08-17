@@ -1,0 +1,42 @@
+/*------------------------------------------------
+    ## Section title
+------------------------------------------------*/
+.section-title {
+    margin-bottom: 55px;
+    position: relative;
+    .title {
+        margin-bottom: 0;
+        margin-top: -0.25em;
+        font-weight: 400;
+        line-height: 1.15;
+    }
+    .content {
+        margin-top: 35px;
+        margin-bottom: 0;
+        line-height: 1.45;
+        font-weight: 300;
+    }
+    .btn {
+        margin-top: 50px;
+    }
+    &.style-white {
+        .title {
+            color: #fff;
+        }
+        .content {
+            color: #fff;
+        }
+        .small-title {
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 525px) {
+    .section-title {
+        margin-bottom: 35px;
+        .content {
+            margin-top: 30px;
+        }
+    }
+}
